@@ -1,0 +1,14 @@
+{
+  "name": "1NoBeef1-marketplace",
+  "owner": {
+    "name": "1NoBeef1"
+  },
+  "plugins": [
+    {
+      "name": "rocky-mode",
+      "description": "Makes Claude respond in the voice of Rocky from Project Hail Mary. Two modes: full Rocky dialect or Rocky-flavored with standard grammar. Toggle with /rocky.",
+      "source": "./plugins/rocky-mode",
+      "category": "personality"
+    }
+  ]
+}
