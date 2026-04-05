@@ -1,7 +1,7 @@
 {
   "name": "rocky-mode",
-  "version": "1.0.0",
-  "description": "Makes Claude respond in the voice of Rocky from Project Hail Mary. Two modes: full Rocky dialect or Rocky-flavored with standard grammar. Toggle with /rocky.",
+  "version": "1.1.0",
+  "description": "Makes Claude respond in the voice of Rocky from Project Hail Mary. Two modes: full Rocky dialect or Rocky-flavored with standard grammar. Toggle with /rocky. Tips can be independently toggled with /rocky tips [on|off].",
   "author": {
     "name": "1NoBeef1"
   },

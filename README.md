@@ -80,13 +80,24 @@ claude plugins install rocky-mode@1NoBeef1-marketplace
 ### Toggle Modes
 
 ```
-/rocky full   — Full Rocky dialect
-/rocky lite   — Rocky-flavored (default)
-/rocky off    — Disable
-/rocky        — Show current mode
+/rocky full      — Full Rocky dialect
+/rocky lite      — Rocky-flavored (default)
+/rocky off       — Disable
+/rocky           — Show current mode
 ```
 
-Mode changes take effect on your next session and persist across sessions. Spinner verbs and tips are automatically configured when you toggle modes, and restored to defaults when you `/rocky off`.
+### Toggle Tips
+
+Rocky-themed spinner tips can be controlled independently from the voice mode:
+
+```
+/rocky tips on   — Enable Rocky-themed spinner tips (default)
+/rocky tips off  — Disable Rocky-themed spinner tips (use default tips)
+```
+
+This lets you keep Rocky's voice while using the default Claude Code tips, or vice versa.
+
+Mode and tips changes take effect on your next session and persist across sessions. Spinner verbs and tips are automatically configured when you toggle modes, and restored to defaults when you `/rocky off`.
 
 ## Uninstall
 
